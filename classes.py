@@ -124,6 +124,7 @@ def main():
         if counter == 0:
             i_old = i
             counter+=1
+            rez_class[i] = counters(one_to_many_twice, i)
         else:
             if i_old==i:
                 rez_class[i] = counters(one_to_many_twice,i)
